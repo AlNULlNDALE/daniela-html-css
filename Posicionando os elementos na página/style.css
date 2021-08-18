@@ -18,7 +18,7 @@
 .caixa {
     background-color: green;
     width: 100px;
-    height: 1000px;
+    height: 50px;
     position: relative;
     z-index: 2; /* fazer a caixa verde ficar acima da vermelha. Quanto maior o z-index, mais por cima fica o elemento */
     /* position: static; */
@@ -31,7 +31,7 @@
 .caixa-absoluta {
     background-color: red;
     width: 100px;
-    height: 100px;
+    height: 70px;
     position: absolute; /* ignora todos os elementos */
     top: 100px;
     left: 45px;
@@ -39,8 +39,59 @@
 
 .caixa-fixa {
     background-color: blue;
-    width: 500px;
-    height: 100px;
+    width: 200px;
+    height: 50px;
     position: fixed;
     top: 10px;
+}
+
+.caixa-1 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.caixa-2 {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.caixa-3 {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 5px 10px 15px 20px; /*em cima, direita, embaixo, esquerda*/
+}
+
+.caixa-4 {
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    margin: 30px 40px;  /*em cima-embaixo e direita-esquerda*/
+}
+
+.botao-1 {
+    padding: 10px;
+}
+
+.botao-2 {
+    padding: 5px 15px; /*em cima-embaixo e dos lados*/
+}
+
+.text {
+    height: 80px;
+    width: 80px;
+    padding: 10px;    /* nosso elemento terá 80px + 10px do padding de cima + 10 do debaixo = 100px de altura */
+    background-color: pink;
+    box-sizing: border-box; /*nosso elemento passará a ter 100, zerando o padding */
+}
+
+.paragrafo {
+    margin: 0;
 }

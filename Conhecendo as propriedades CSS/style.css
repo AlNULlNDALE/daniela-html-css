@@ -1,0 +1,63 @@
+.caixa-1 {
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 10px 5px 6px 2px red;
+}
+
+.caixa-2 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 15px 20px 25px; /*superior esq - superior dir - inferior dir - inferior esq*/
+}
+
+.botao {
+    cursor: help; /*alterações no cursor quando ele passar sobre o nosso elemento*/
+    /*cursor: pointer; */
+}
+
+.button:focus {
+    outline: none;
+    border: 2px solid green;
+}
+
+.caixa {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    float: left;
+}
+
+.box {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    /*overflow: hidden;*/
+    overflow: scroll;
+}
+
+.frase-1 {
+    font-size: 42px;
+    font-weight: bold; /*ou podemos informar números - sem o px*/
+    width: 400px;
+    border: 1px solid red;
+    text-align: center;
+    text-indent: 5px;
+}
+
+.frase-2 {
+    text-indent: 20px;
+    letter-spacing: 5px;
+
+}
+
+.textao {
+    line-height: 40px;
+}
+

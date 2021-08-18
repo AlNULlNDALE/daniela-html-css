@@ -1,0 +1,46 @@
+.texto {
+    background-color: green;
+    display: inline; /* nosso elemento p deixa de se comportar como bloco e passa a comportar de forma inline*/
+}
+
+.link {
+    background-color: pink; /* os elementos a por padrão possuem display inline*/
+    display: block;
+}
+
+.linkk {
+    background-color: lightblue;
+    padding: 15px;
+    display: inline-block;
+    /* display: none; */
+}
+
+.caixa {
+    background-color: green;
+    width: 100px;
+    height: 1000px;
+    position: relative;
+    z-index: 2; /* fazer a caixa verde ficar acima da vermelha. Quanto maior o z-index, mais por cima fica o elemento */
+    /* position: static; */
+    /* position: relative;
+    top: 100px; /* por causa do position static, não funciona */
+    /*left: 50px;*/
+
+}
+
+.caixa-absoluta {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute; /* ignora todos os elementos */
+    top: 100px;
+    left: 45px;
+}
+
+.caixa-fixa {
+    background-color: blue;
+    width: 500px;
+    height: 100px;
+    position: fixed;
+    top: 10px;
+}

@@ -1,0 +1,43 @@
+.exemplo {
+    color: #0000ff;    /** em hexadecimal  **/
+}
+
+.exemplo-1 {
+    color: rgb(255,0,0);   /** perceba que o valor red está no máximo: 255 **/
+}
+
+.exemplo-2 {
+    color: rgb(0,255,0);  /** perceba que o valor green está no máximo: 255 **/
+}
+
+.exemplo-3 {
+    color: rgb(0,0,255);  /** perceba que o valor blue está no máximo: 255 **/
+}
+
+.exemplo-4 {
+    color: rgb(255,71,212);   /** use o color picker - pesquisa do google - para encontrar a cor desejada **/
+}
+
+.example {
+    width: 100%; /* largura flexível */
+    /* width: 150px; /* largura */
+    /* height: 150px; /* altura */
+} 
+
+.elemento-pai {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+
+.elemento-filho {
+    width: 50%;
+    height: 50%;
+}
+
+.texto {   /* os elementos com a classe texto terão a fonte que eu informar */
+    font-family: 'Redressed', cursive;
+}
+
+
+

@@ -1,0 +1,71 @@
+/** A partir daqui, os principais seletores **/
+
+p {
+    color: blue;
+}
+
+.colorido { /** seletor de classe **/
+    color: green;
+}
+
+#paragrafo { /** seletor de ID **/
+    color: red;
+}
+
+* {  /** seletor global: aplica o estilo a tudo da página **/
+    color: black; 
+}
+
+main h1 { /** qualquer h1 incluído dentro da tag main terá essa aparência **/
+    color: green;
+}
+
+main > h1 { /** apenas os h1 diretamente ligados ao main. Os que estiverem dentro de section não entram **/
+    color: orange;
+}
+
+/** A partir daqui, pseudo seletores; usamos dois pontos para chamá-los **/
+
+
+.exemplo:hover { /** apenas quando o cursor do mouse passar sobre o nosso elemento **/
+    background-color: lightblue;
+}
+
+.exemplo:focus { /** quando acesso a página pelo teclado **/
+    background-color: lightpink;
+}
+
+.exemplo:active { /** enquanto o elemento estiver sendo pressionado **/
+    background-color: lightgreen;
+}
+
+li:first-child { /** primeiro li do nosso código terá essa regra aplicada **/
+    color: blue;
+}
+
+li:last-child { /** último seletor encontrado **/
+    color: red;
+}
+
+li:nth-child(2) { /** pegará o li da posição entre parênteses e aplicará a regra **/
+    color: green;
+}
+
+li:nth-child(odd) { /** elementos ímpares **/
+    color: pink;
+}
+
+li:nth-child(even) { /** elementos pares **/
+    color: purple;
+}
+
+/** A partir daqui, pseudo-elementos, usando dois pontos **/
+
+.exemplo::after{
+    content: " - DEPOIS";
+}
+
+.exemplo::before{ /** cria um elemento como primeiro filho do elemento selecionado **/
+    content: "ANTES - ";
+}
+
